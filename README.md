@@ -60,6 +60,10 @@ Adicionalmente, otra de las funciones de este TODO es que al darle clic al emoji
 
 ### Solución 
 
-  -Diseño web
+  **-Diseño web**
 
   ! [Idea de diseño de la Todo list app] (https://cdn.dribbble.com/userupload/3235877/file/original-cb3d81d68da573bb85245c8949fd1c5b.jpg?compress=1&resize=752x)
+
+  **JavaScript** 
+
+  ! [Esquema del proyecto] (image.png)
