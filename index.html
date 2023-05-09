@@ -5,12 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./src/styles.css">
   <script async defer type="module" src="./src/main.js"></script>
 
   <title>ToDo List</title>
 </head>
 <body>
-  
+  <div class="app-container">
+    <header >
+      <h1>Todo List</h1>
+    </header>
+    <main class="main-section">
+      <div class="add_todo-section">
+        <div class="box"></div>
+        <div class="add_todo-input">
+          <input class="todo-input" type="text" placeholder="agrega la tarea">
+          <button class="add_buttom">
+            <img src="/src/img/boton-agregar.png" alt="">
+          </button> 
+        </div>
+      </div>
+      <section class="todoList-container">
+        <h2>Lista tareas</h2>
+        <section class="todoList-section">
+          <div class="todo-card">
+            <input type="checkbox">
+            <div>
+              <p>🏃</p>
+              <p>Correr</p>
+            </div>
+            <button>
+              <img src="/src/img/dejar-de-seguir.png" alt="">
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
