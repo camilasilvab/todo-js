@@ -66,4 +66,4 @@ Adicionalmente, otra de las funciones de este TODO es que al darle clic al emoji
 
   **JavaScript** 
 
-  ! [Esquema del proyecto] (image.png)
+  ! [Esquema del proyecto] (https://ibb.co/9TYHTTK)
