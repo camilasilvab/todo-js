@@ -45,12 +45,14 @@ body {
   display: flex;
   flex-direction: column;
   width:  320px;
-  height: 533px;
-  padding-top: 28px;
+  height: auto;
+  padding: 28px 0;
+  margin: 20px 0;
   border: 6px solid black;
   border-radius: 15px;
-  overflow: hidden;
-  gap: 56px;
+  gap: 40px;
+  
+
 }
 
 header {
@@ -116,6 +118,8 @@ header {
   flex-direction: column;
   width: 100%;
   gap: 20px;
+
+
 }
 
 .todoList-container h2{
@@ -125,16 +129,31 @@ header {
 .todoList-section {
   display: flex;
   flex-direction: column;
+  gap: 18px;
+}
+
+.todoCards-Container {
+  width: 100%;
+  height: max-content;
 }
 
 .todo-card {
   display: flex; 
   flex-direction: row;
   align-items: center;
+  position: absolute;
   width: 270px;
   padding: 10px;
   border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
   gap: 10px;
+  position: absolute;
+}
+
+.box1 {
+  height: 56px;
+  background-color: #db94fc;
 }
 
 .check-card {
@@ -167,3 +186,32 @@ header {
   cursor: pointer;
 }
 
+/* _______________ Footer _________________ */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 22px;
+}
+
+footer div {
+  width: 100%;
+  height: 36px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.box2 {
+  height: 42px;
+  background-color: rgb(255, 174, 174);
+  border-radius: 10px;
+}
+
+.footer_p {
+  position: absolute;
+  text-align: center;
+  width: 270px;
+  padding: 4px;
+  background-color: white;
+}
