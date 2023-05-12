@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./src/styles.css">
-  <script async defer type="module" src="./src/main.js"></script>
+  <link rel="stylesheet" href="/src/styles.css">
+  <script async defer type="module" src="/src/main.js"></script>
 
   <title>ToDo List</title>
 </head>
@@ -23,19 +23,22 @@
       <div class="add_todo-section">
         <div class="box"></div>
         <div class="add_todo-input">
-          <input class="todo-input" type="text" placeholder="agrega la tarea">
-          <button class="add_buttom">
+          <input id="task" class="todo-input" type="text" value="caminar" placeholder="agrega la tarea">
+          <button id="addButton" class="add_buttom">
             <img src="/src/img/boton-agregar.png" alt="">
           </button> 
         </div>
       </div>
-      <section class="todoList-container">
-        <h2>Lista de tareas</h2>
-        <section class="todoList-section">
 
-          <div class="todoCards-Container">           
+      <section class="todoList-container">
+
+        <h2>Lista de tareas</h2>
+        
+        <ul class="todoList-section" id="todoList">
+
+<!--           <li class="todoCards-Container">           
             <div class="todo-card">
-                <input class="check-card" type="checkbox">
+                <input id="done" class="check-card" type="checkbox">
               <div class="texts-card">
                 <p class="text-icon">🏃</p>
                 <p class="text-p">Correr</p>
@@ -45,37 +48,10 @@
               </button>
             </div>             
             <div class="box box1"></div>         
-          </div>
+          </li> -->
 
-          <div class="todoCards-Container">           
-            <div class="todo-card">
-                <input class="check-card" type="checkbox">
-              <div class="texts-card">
-                <p class="text-icon">🏃</p>
-                <p class="text-p">Correr</p>
-              </div>
-              <button class="delete_buttom">
-                <img src="/src/img/dejar-de-seguir.png" alt="">
-              </button>
-            </div>  
-            <div class="box box1"></div>         
-          </div>
+        </ul>
 
-          <div class="todoCards-Container">           
-            <div class="todo-card">
-                <input class="check-card" type="checkbox">
-              <div class="texts-card">
-                <p class="text-icon">🏃</p>
-                <p class="text-p">Correr</p>
-              </div>
-              <button class="delete_buttom">
-                <img src="/src/img/dejar-de-seguir.png" alt="">
-              </button>
-            </div>  
-            <div class="box box1"></div>         
-          </div>
-
-        </section>
       </section>
 
       
