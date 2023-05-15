@@ -198,21 +198,30 @@ footer {
 
 footer div {
   width: 100%;
-  height: 36px;
+  height: 30px;
   border: 2px solid black;
   border-radius: 5px;
 }
 
 .box2 {
-  height: 42px;
+  width: 269px;
+  height: 36px;
   background-color: rgb(255, 174, 174);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 .footer_p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   text-align: center;
   width: 270px;
   padding: 4px;
   background-color: white;
+    
+}
+
+.completed {
+  background-color: rgb(177, 255, 177);
 }
